@@ -1,0 +1,36 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Sep-2017 07:56:25"
+    },
+    "run-parameters": {
+      "resources": "src/main/resources/common",
+      "baseurl": "",
+      "webdriver.chrome.driver": "C:\\\\Users\\\\kumar\\\\Desktop\\\\Quantum-Starter-Kit-master-master\\\\driver\\\\chromedriver.exe",
+      "driver.name": "ChromeDriver"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_151",
+      "os.arch": "amd64",
+      "host": "LAPTOP-02H2H77P",
+      "os.name": "Windows 10",
+      "user.name": "kumar",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1520969426757,
+  "endTime": 1520969426855
+}

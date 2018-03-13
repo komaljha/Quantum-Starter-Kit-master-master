@@ -1,0 +1,122 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=0}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "i_am_on_flipkart_home_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.flipkart.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5857
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verify_tittle_of_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+          "subLogs": [],
+          "duration": 52
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verify_career",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Careers'], using=xpath}"
+          ],
+          "result": "id: 0.15626153812720878-1",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Careers']",
+            "{\"id\":\"0.15626153812720878-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Careers'], using=xpath}"
+          ],
+          "result": "id: 0.15626153812720878-1",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[text()='Careers']",
+            "{\"id\":\"0.15626153812720878-1\"}"
+          ],
+          "result": "getElementText:Careers",
+          "subLogs": [],
+          "duration": 20
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i am on flipkart home page",
+      "type": "TestStepPass",
+      "duration": 5888,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And verify tittle of page",
+      "type": "TestStepPass",
+      "duration": 54,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  verify career",
+      "type": "TestStepPass",
+      "duration": 217,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LFG CI Suite">
+  <test name="pssss-uhh geko Browser">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Verify i am on flipkart home page")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="webdriver.chrome.driver" value="C:\\Users\\kumar\\Desktop\\Quantum-Starter-Kit-master-master\\driver\\geckodriver.exe"/>
+    <parameter name="driver.name" value="FirefoxDriver"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- pssss-uhh geko Browser -->
+</suite> <!-- LFG CI Suite -->

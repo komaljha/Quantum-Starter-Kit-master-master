@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@navigate_to_flipkart_home_page",
+          "@Flipkart_Home"
+        ],
+        "lineNo": 5,
+        "name": "Verify i am on flipkart home page",
+        "referece": "src/main/resources/scenarios/flipkart.feature",
+        "sign": "src.main.resources.scenarios.flipkart.feature.Verify i am on flipkart home page()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1520973966202,
+      "duration": 9478,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

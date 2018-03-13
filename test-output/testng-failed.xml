@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LFG CI Suite]">
+  <test name="pssss-uhh geko Browser(failed)">
+    <parameter name="webdriver.chrome.driver" value="C:\\Users\\kumar\\Desktop\\Quantum-Starter-Kit-master-master\\driver\\geckodriver.exe"/>
+    <parameter name="driver.name" value="FirefoxDriver"/>
+    <groups>
+      <run>
+        <include name="@navigate_to_flipkart_home_page"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- pssss-uhh geko Browser(failed) -->
+</suite> <!-- Failed suite [LFG CI Suite] -->

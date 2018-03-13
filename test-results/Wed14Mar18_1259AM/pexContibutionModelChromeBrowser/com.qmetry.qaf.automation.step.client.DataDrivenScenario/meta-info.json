@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Username": "omnath",
+          "Password": "jha"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Login_with_valid_credentials",
+          "@Facebook_Login"
+        ],
+        "JSON_DATA_TABLE": "[{\"Username\":\"omnath\",\"Password\":\"jha\"}]",
+        "lineNo": 5,
+        "name": "Verify with valid cred",
+        "referece": "src/main/resources/scenarios/FacebookLogin.feature",
+        "sign": "src.main.resources.scenarios.FacebookLogin.feature.Verify with valid cred( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1520969366636,
+      "duration": 211,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

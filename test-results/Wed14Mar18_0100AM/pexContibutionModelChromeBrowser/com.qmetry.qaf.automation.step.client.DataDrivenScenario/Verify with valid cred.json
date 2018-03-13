@@ -1,0 +1,80 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "open_facebook_page",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And Enter \"${Username}\"",
+      "args": [
+        "[omnath]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And Enter \"${Password}\"",
+      "args": [
+        "[jha]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I am on home page",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given open facebook page",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Unresolved compilation problems: \n\tfacebookloginpage cannot be resolved to a type\n\tfacebookloginpage cannot be resolved to a type\n\tfacebookloginpage cannot be resolved to a type\n\tfacebookloginpage cannot be resolved to a type\n\tfacebookloginpage cannot be resolved to a type\n",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And Enter \"${Username}\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Enter \"${Password}\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I am on home page",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.Error: Unresolved compilation problems: \n\tfacebookloginpage cannot be resolved to a type\n\tfacebookloginpage cannot be resolved to a type\n\tfacebookloginpage cannot be resolved to a type\n\tfacebookloginpage cannot be resolved to a type\n\tfacebookloginpage cannot be resolved to a type\n\r\n\tat .Given open facebook page(src/main/resources/scenarios/FacebookLogin.feature:6)\r\n\tat com.quantum.steps.Facebooklogin.<init>(Facebooklogin.java:18)\r\n\tat java.lang.Class.newInstance(Unknown Source)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

@@ -1,0 +1,84 @@
+{
+  "reports": [
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_0237AM",
+      "startTime": 1520975228528
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_0236AM",
+      "startTime": 1520975176901
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_0235AM",
+      "startTime": 1520975127310
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_0233AM",
+      "startTime": 1520974994714
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_0221AM",
+      "startTime": 1520974316589
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_0216AM",
+      "startTime": 1520973966135
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_0208AM",
+      "startTime": 1520973512491
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Wed14Mar18_0120AM",
+      "startTime": 1520970639145
+    },
+    {
+      "name": "Web Demo Suite",
+      "dir": "test-results/Wed14Mar18_0108AM",
+      "startTime": 1520969937157
+    },
+    {
+      "name": "Web Demo Suite",
+      "dir": "test-results/Wed14Mar18_0101AM",
+      "startTime": 1520969517198
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_0100AM",
+      "startTime": 1520969426442
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_1259AM",
+      "startTime": 1520969366564
+    },
+    {
+      "name": "LFG CI Suite",
+      "dir": "test-results/Wed14Mar18_1246AM",
+      "startTime": 1520968570700
+    },
+    {
+      "name": "Web Demo Suite",
+      "dir": "test-results/Wed14Mar18_1242AM",
+      "startTime": 1520968377165
+    },
+    {
+      "name": "Appium Demo Suite",
+      "dir": "test-results/Wed14Mar18_1242AM",
+      "startTime": 1520968355396
+    },
+    {
+      "name": "Web Demo Suite",
+      "dir": "test-results/Wed14Mar18_1232AM",
+      "startTime": 1520967752486
+    }
+  ]
+}

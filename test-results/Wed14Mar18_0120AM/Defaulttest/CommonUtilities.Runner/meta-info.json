@@ -1,0 +1,67 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setUpClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1520970639236,
+      "duration": 245,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "one",
+        "sign": "Runner.one()[pri:0, instance:CommonUtilities.Runner@3c22fc4c]"
+      },
+      "dependsOn": [],
+      "startTime": 1520970639537,
+      "duration": 10,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Runs Cucumber Feature",
+        "groups": [
+          "cucumber"
+        ],
+        "name": "feature",
+        "sign": "AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CommonUtilities.Runner@3c22fc4c]"
+      },
+      "dependsOn": [],
+      "startTime": 1520970639592,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "tearDownClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1520970639624,
+      "duration": 9,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

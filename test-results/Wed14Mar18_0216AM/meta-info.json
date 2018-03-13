@@ -1,0 +1,13 @@
+{
+  "name": "LFG CI Suite",
+  "status": "pass",
+  "tests": [
+    "pexContibutionModelChromeBrowser"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1520973966135,
+  "endTime": 1520973976314
+}
