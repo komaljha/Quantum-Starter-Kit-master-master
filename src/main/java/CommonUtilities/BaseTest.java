@@ -33,7 +33,7 @@ public abstract class BaseTest implements IAutoConst{
 	@BeforeMethod
 	public void preCondition(){;
 //	System.setProperty(CHROME_KEY,CHROME_VALUE);
-	driver=new ChromeDriver();
+	//driver=new ChromeDriver();
 	
 	driver.get("https://www.flipkart.com/");
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
